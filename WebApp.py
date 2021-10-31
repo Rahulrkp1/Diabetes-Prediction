@@ -7,8 +7,8 @@ from PIL import Image
 import streamlit as st
 
 #Create a title and sub-title
-st.write("""
-#Diabetes Detection 
+st.title("Diabetes Prediction")
+st.write(""" 
 Detect if someone has diabetes using machine learning and python!
 """)
 

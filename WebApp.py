@@ -13,7 +13,7 @@ Detect if someone has diabetes using machine learning and python!
 """)
 
 #open and display an image
-image = Image.open('C:/Users/Rahul Kumar Pandey/PycharmProjects/Diabetes_Prediction/venv/diabetes.png')
+image = Image.open('diabetes.png')
 st.image(image, caption = 'ML', use_column_width = True)
 
 #get the data

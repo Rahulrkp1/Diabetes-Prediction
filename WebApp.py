@@ -17,7 +17,7 @@ image = Image.open('C:/Users/Rahul Kumar Pandey/PycharmProjects/Diabetes_Predict
 st.image(image, caption = 'ML', use_column_width = True)
 
 #get the data
-df=pd.read_csv('C:/Users/Rahul Kumar Pandey/PycharmProjects/Diabetes_Prediction/venv/diabetes.csv')
+df=pd.read_csv('diabetes.csv')
 
 #set a subheader
 st.subheader('Data information:')

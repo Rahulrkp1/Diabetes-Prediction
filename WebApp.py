@@ -86,6 +86,8 @@ prediction = RandomForestClassifier.predict(user_input)
 #set a subheader and display the classification
 st.subheader('Classification:')
 st.write(prediction)
+st.write("0 means non diabetic.")
+st.write("1 means diabetic.")
 
 
 

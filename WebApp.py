@@ -8,7 +8,7 @@ import streamlit as st
 
 #Create a title and sub-title
 st.title("Diabetes Prediction")
-st.write(""" 
+st.write("""
 Detect if someone has diabetes using machine learning and python!
 """)
 
@@ -17,7 +17,7 @@ image = Image.open('diabetes.png')
 st.image(image, caption = 'ML', use_column_width = True)
 
 #get the data
-df=pd.read_csv('diabetes.csv')
+df = pd.read_csv('C:/Users/Rahul Kumar Pandey/PycharmProjects/Diabetes_Prediction/venv/diabetes.csv')
 
 #set a subheader
 st.subheader('Data information:')
@@ -25,9 +25,11 @@ st.subheader('Data information:')
 #show the data as a table
 st.dataframe(df)
 
+st.subheader('Data Description:')
 #show statistics on the data
 st.write(df.describe())
 
+st.subheader('Data Visualization:')
 #show the data as a chart
 chart = st.bar_chart(df)
 
@@ -86,8 +88,12 @@ prediction = RandomForestClassifier.predict(user_input)
 #set a subheader and display the classification
 st.subheader('Classification:')
 st.write(prediction)
-st.write("0 means non diabetic.")
-st.write("1 means diabetic.")
+
+#Answer
+st.subheader('Note :')
+st.write('''0 means the person is not diabetic. ''')
+st.write('''1 means the person is diabetic.''')
+
 
 
 

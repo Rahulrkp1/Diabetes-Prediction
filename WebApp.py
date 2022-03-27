@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit as st
 
 #Create a title and sub-title
-st.markdown("<h1 style='text-align: center; color: black;'>Diabetes Prediction</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center'>Diabetes Prediction</h1>", unsafe_allow_html=True)
 st.text("""
 Using Machine learning algorithm , we detects if someone have diabetes or not .
 

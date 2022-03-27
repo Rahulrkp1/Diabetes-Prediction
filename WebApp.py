@@ -13,7 +13,7 @@ Detect if someone has diabetes using machine learning and python!
 """)
 
 #open and display an image
-image = Image.open('diabetes.png')
+image = Image.open('da.jpg')
 st.image(image, caption = 'ML', use_column_width = True)
 
 #get the data
@@ -92,16 +92,16 @@ st.subheader('Result: ')
 if(prediction==1):
     st.write('''## You have Diabetes.''')
     st.write('''You must take the following medicines: ''')
-    st.write('''1.Insulin (long- and rapid-acting)''')
-    st.write('''2.Metformin (biguanide class)''')
-    st.write('''3.Glipizide (sulfonylurea class)''')
-    st.write('''4.Glimepiride (sulfonylurea class)''')
-    st.write('''5.Invokana (sodium glucose cotransporter 2 inhibitor class)''')
-    st.write('''6.Jardiance (SGLT2 class)''')
-    st.write('''7.Januvia (dipeptidyl peptidase 4 inhibitor)''')
-    st.write('''8.Pioglitazone (thiazolidinediones)''')
-    st.write('''9.Victoza (glucagon-like peptide 1 agonist)''')
-    st.write('''10.Trulicity (glucagon-like peptide 1 agonist)''')
+    st.write('''1. Insulin (long- and rapid-acting)''')
+    st.write('''2. Metformin (biguanide class)''')
+    st.write('''3. Glipizide (sulfonylurea class)''')
+    st.write('''4. Glimepiride (sulfonylurea class)''')
+    st.write('''5. Invokana (sodium glucose cotransporter 2 inhibitor class)''')
+    st.write('''6. Jardiance (SGLT2 class)''')
+    st.write('''7. Januvia (dipeptidyl peptidase 4 inhibitor)''')
+    st.write('''8. Pioglitazone (thiazolidinediones)''')
+    st.write('''9. Victoza (glucagon-like peptide 1 agonist)''')
+    st.write('''10. Trulicity (glucagon-like peptide 1 agonist)''')
     
 else:
     st.write('''## You do not have diabetes.''')

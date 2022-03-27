@@ -90,7 +90,7 @@ st.subheader('Classification:')
 st.write(prediction)
 st.subheader('Result: ')
 if(prediction==1):
-    st.write('''###You have Diabetes.''')
+    st.write('''## You have Diabetes.''')
     st.write('''You must take the following medicines: ''')
     st.write('''1.Insulin (long- and rapid-acting)''')
     st.write('''2.Metformin (biguanide class)''')
@@ -104,7 +104,7 @@ if(prediction==1):
     st.write('''10.Trulicity (glucagon-like peptide 1 agonist)''')
     
 else:
-    st.write('''###You do not have diabetes.''')
+    st.write('''## You do not have diabetes.''')
 
 
 

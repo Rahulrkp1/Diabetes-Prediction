@@ -97,7 +97,7 @@ if(prediction==0):
     Invokana (sodium glucose cotransporter 2 inhibitor class)
     Jardiance (SGLT2 class)
     Januvia (dipeptidyl peptidase 4 inhibitor)''')
-else
+else:
     st.write('''You do not have diabetes''')
 #Answer
 st.subheader('Note :')

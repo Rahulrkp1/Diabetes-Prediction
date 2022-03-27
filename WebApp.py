@@ -8,7 +8,7 @@ import streamlit as st
 
 #Create a title and sub-title
 st.title(" Diabetes Prediction ")
-st.write("""
+st.text("""
 Using Machine learning algorithm , we detects if someone have diabetes or not .
 
 Diabetes Mellitus is among critical diseases and lots of people are suffering from this disease.
@@ -20,7 +20,7 @@ Healthcare industries have large volume databases.
 Using big data analytics one can study huge datasets and find hidden information, hidden patterns to discover knowledge from the data and predict outcomes accordingly. 
 In existing method, the classification and prediction accuracy is not so high. 
 In this paper, we have proposed a diabetes prediction model for better classification of diabetes which includes few external factors responsible for diabetes along with regular factors like Glucose, BMI, Age, Insulin, etc.
-""")
+""",text-alignment:center)
 
 #open and display an image
 image = Image.open('da.jpg')

@@ -90,26 +90,22 @@ st.subheader('Classification:')
 st.write(prediction)
 st.subheader('Result: ')
 if(prediction==1):
-    st.write('''You have Diabetes.''')
+    st.write('''# You have Diabetes.''')
     st.write('''You must take the following medicines: ''')
-    st.write('''Insulin (long- and rapid-acting)''')
-    st.write('''Metformin (biguanide class)''')
-    st.write('''Glipizide (sulfonylurea class)''')
-    st.write('''Glimepiride (sulfonylurea class)''')
-    st.write('''Invokana (sodium glucose cotransporter 2 inhibitor class)''')
-    st.write('''Jardiance (SGLT2 class)''')
-    st.write('''Januvia (dipeptidyl peptidase 4 inhibitor)''')
-    st.write('''Pioglitazone (thiazolidinediones)''')
-    st.write('''Victoza (glucagon-like peptide 1 agonist)''')
-    st.write('''Trulicity (glucagon-like peptide 1 agonist)''')
-    st.write('''''')
+    st.write('''1.Insulin (long- and rapid-acting)''')
+    st.write('''2.Metformin (biguanide class)''')
+    st.write('''3.Glipizide (sulfonylurea class)''')
+    st.write('''4.Glimepiride (sulfonylurea class)''')
+    st.write('''5.Invokana (sodium glucose cotransporter 2 inhibitor class)''')
+    st.write('''6.Jardiance (SGLT2 class)''')
+    st.write('''7.Januvia (dipeptidyl peptidase 4 inhibitor)''')
+    st.write('''8.Pioglitazone (thiazolidinediones)''')
+    st.write('''9.Victoza (glucagon-like peptide 1 agonist)''')
+    st.write('''10.Trulicity (glucagon-like peptide 1 agonist)''')
     
 else:
     st.write('''You do not have diabetes.''')
-#Answer
-st.subheader('Note :')
-st.write('''0 means the person is not diabetic. ''')
-st.write('''1 means the person is diabetic.''')
+
 
 
 

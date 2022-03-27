@@ -20,7 +20,7 @@ Healthcare industries have large volume databases.
 Using big data analytics one can study huge datasets and find hidden information, hidden patterns to discover knowledge from the data and predict outcomes accordingly. 
 In existing method, the classification and prediction accuracy is not so high. 
 In this paper, we have proposed a diabetes prediction model for better classification of diabetes which includes few external factors responsible for diabetes along with regular factors like Glucose, BMI, Age, Insulin, etc.
-""",text-alignment:center)
+""",text-alignment:'center')
 
 #open and display an image
 image = Image.open('da.jpg')

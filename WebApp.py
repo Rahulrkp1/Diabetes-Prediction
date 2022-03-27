@@ -12,7 +12,6 @@ st.text("""
 Using Machine learning algorithm , we detects if someone have diabetes or not .
 
 Diabetes Mellitus is among critical diseases and lots of people are suffering from this disease.
-
 Age, obesity, lack of exercise, hereditary diabetes, living style, bad diet, high blood pressure, etc. can cause Diabetes Mellitus. 
 People having diabetes have high risk of diseases like heart disease, kidney disease, stroke, eye problem, nerve damage, etc. 
 Current practice in hospital is to collect required information for diabetes diagnosis through various tests and appropriate treatment is provided based on diagnosis. 

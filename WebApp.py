@@ -88,7 +88,17 @@ prediction = RandomForestClassifier.predict(user_input)
 #set a subheader and display the classification
 st.subheader('Classification:')
 st.write(prediction)
-
+if(prediction==0):
+    st.write('''You have Diabetes. You must take the following medicines: ''')
+    st.write('''Insulin (long- and rapid-acting)
+    Metformin (biguanide class)
+    Glipizide (sulfonylurea class)
+    Glimepiride (sulfonylurea class)
+    Invokana (sodium glucose cotransporter 2 inhibitor class)
+    Jardiance (SGLT2 class)
+    Januvia (dipeptidyl peptidase 4 inhibitor)''')
+else
+    st.write('''You do not have diabetes''')
 #Answer
 st.subheader('Note :')
 st.write('''0 means the person is not diabetic. ''')

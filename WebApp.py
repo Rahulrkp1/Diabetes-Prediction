@@ -52,9 +52,9 @@ X_train, X_test, Y_train, Y_test =  train_test_split(X,Y,test_size=0.25, random_
 
 #get the feature input from the user
 def get_user_input():
-    pregnancies = st.sidebar.slider('Pregnancies', 0, 17, 0)
-    glucose = st.sidebar.slider('Glucose', 0, 199, 117)
-    blood_pressure = st.sidebar.slider('Blood_pressure', 0, 122, 72)
+    pregnancies = st.sidebar.slider('Pregnancies', 0, 10, 0)
+    glucose = st.sidebar.slider('Glucose', 0, 300, 117)
+    blood_pressure = st.sidebar.slider('Blood_pressure', 0, 200, 72)
     skin_thickness = st.sidebar.slider('Skin_thickness', 0, 99, 3)
     insulin = st.sidebar.slider('Insulin', 0.0, 846.0, 30.0)
     BMI = st.sidebar.slider('BMI', 0.0, 67.0, 32.0)
